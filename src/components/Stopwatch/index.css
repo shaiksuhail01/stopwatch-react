@@ -1,0 +1,103 @@
+.divContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #333333;
+  font-size: 35px;
+  text-align: center;
+}
+.timerContainer {
+  background-color: #ffffff;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 35px;
+  padding-bottom: 28px;
+  border-radius: 8px;
+  border-width: 0px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.timerText {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #333333;
+  font-size: 23px;
+  padding-left: 8px;
+}
+.headingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #333333;
+  font-size: 33px;
+  margin: 0px;
+  margin-bottom: 25px;
+}
+.buttons {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #ffffff;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 6px;
+  border-width: 0px;
+  font-size: 15px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.startButton {
+  background-color: #1db05f;
+}
+.stopButton {
+  background-color: #ef0d36;
+}
+.resetButton {
+  background-color: #eaa800;
+}
+.buttonsContainer {
+  display: flex;
+}
+@media screen and (min-width: 768px) {
+  .divContainer {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-position: center;
+    padding-left: 60px;
+  }
+  .heading {
+    font-size: 45px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .timerContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .time {
+    font-size: 48px;
+  }
+  .buttons {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
